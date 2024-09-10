@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "General Sans";
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    /* background-color: pink; */
+    background-color: #000;
+    color: #fff;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: #fff solid 1px; */
+    width: 100%;
+    padding: 27px 3vw;
+    color: #fff;
+}
+
+#nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#heading{
+    margin-top: 68px;
+}
+
+#heading h1{
+    margin-left: 30px;
+    color: rgb(163 163 163);
+    font-size: 11vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1;
+    font-family: "General sans";
+    /* background-color: bisque; */
+    width: fit-content;
+
+}
+
+#heading #sech1{
+    margin-left: 200px;
+    /* background-color: pink; */
+}
+
+
+
+.blocktxt {
+    /* background-color: pink; */
+    width: fit-content;
+}
+
+.blocktxt h5{
+    text-align: right;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#smallheading{
+    margin-top: 100px;
+    padding-right: 50px;
+}
+
+#smallheading h5{
+    text-align: right;
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: 500 ;
+}
+
+.sech2{
+    margin-top: .5vw;
+}
+
+#herofooter{
+    width: 100%;
+    position: absolute;
+    bottom: 2%;
+    padding: 0 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#herofooter a{
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+#herofooter .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: #888;
+    border-radius: 50%;
+    color: #000;
+    font-weight: 550;
+    margin-right: 4px;
+}
+
+#iconset{
+    display: flex;
+    flex-direction: row;
+}
+
+#secHero{
+    color: #fff;
+    width: 100%;
+    height: auto ;
+    background-color: #000;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    padding-right: 11.5vw;
+    padding-left: 2.5vw;
+}
+
+.elem{
+    width: 100%;
+    border-top: 1px solid #888;
+    /* font-size: 3.5vw; */
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.elem h1{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    opacity: .7;
+    font-size: 7.6vw;
+}
+
+.hudu{
+    border-bottom: 1px solid #888;
+
+}
+
+.elem h5{
+    font-size: 17px;
+    opacity: 65%;
+}
+
+.elem img{
+    /* opacity: 0; */
+    height: 120%;
+    z-index: 99;
+    position: absolute;
+    display: none;
+}
+
+
+#about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    width: 100%;
+    padding: 6vw 10vw;
+    padding-left: 40vw;
+    gap: 50px;
+}
+
+
+
+#about img{
+    width: 200px;
+    
+}
+
+#textabout{
+    width: 25rem;
+    background-size: cover;
+    color: #fff;
+    /* background-color: pink; */
+}
+
+ #textabout h4{
+    text-transform: uppercase;
+    opacity: .6;
+}
+
+#textabout p{
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 24px;
+}
+
+#textabout a{
+    border: 1px solid #fff;
+    padding: 12px 22px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #fff;
+} 
+
+ #textabout a:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+#subscribe{
+    color: #fff;
+    background-color: #000;
+    padding: 20px 50px;
+    padding-bottom: 7vw;
+}
+
+#subscribe h5{
+    text-transform: uppercase;
+    opacity: .6;
+}
+
+#subscribe h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #000;
+    color: #fff;
+}
+
+#footerleft{
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footerright{
+    text-transform: uppercase;
+    /* gap: 30px; */
+    
+}
+
+#footerright a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: .875rem;
+    font-weight: 500;
+}
