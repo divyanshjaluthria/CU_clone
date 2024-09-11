@@ -92,9 +92,9 @@ html,body{
 }
 
 #herofooter{
+    /* background-color: #fff; */
+    height: 25vh;
     width: 100%;
-    position: absolute;
-    bottom: 2%;
     padding: 0 3vw;
     display: flex;
     align-items: center;

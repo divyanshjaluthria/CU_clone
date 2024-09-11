@@ -5,5 +5,3 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
-imagesLoaded(scrollContainer, { background: true }, function () {
-    scroll.update();});
